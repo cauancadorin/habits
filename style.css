@@ -7,7 +7,6 @@
   body {
     background-color: #09090A;
     color: white;
-
     height: 100vh;
   }
 
@@ -23,6 +22,7 @@
 
   header div{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
   }
