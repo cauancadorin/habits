@@ -14,17 +14,26 @@
     
     <body>
         <header>
-            <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits">        
-            <button><img src="./assets/plus.svg" alt="Ícone sinal de mais, roxo!"><div>Registrar o meu dia</div></button>
+            <div id="logoButton">
+                <img id="habitsLogo" src="./assets/logo.svg" alt="Logomarca do aplicativo Habits">    
+                <button id="especificDay"><img src="./assets/plus.svg" alt="Ícone sinal de mais, roxo!"></button>
+            </div>            
+            <button id="today"><img src="./assets/plus.svg" alt="Ícone sinal de mais, roxo!"><div>Registrar dia de hoje!</div></button>
         </header>
 
         <form id="form-habits">
             <div class = "habits">
                 <div class = "habit" data-name="run">🏃‍♂️</div>
+                <div class = "habit" data-name="futball">⚽</div>
+                <div class = "habit" data-name="gym">🏋️‍♂️</div>
                 <div class = "habit" data-name="water">💧</div>
                 <div class = "habit" data-name="food">🍎</div>
-                <div class = "habit" data-name="journal">📕</div>
                 <div class = "habit" data-name="takePills">💊</div>
+                <div class = "habit" data-name="journal">📕</div>
+                <div class = "habit" data-name="study">📚</div>
+                <div class = "habit" data-name="market">🛒</div>
+                <div class = "habit" data-name="shower">🛀</div>
+                <div class = "habit" data-name="floss">🦷</div>
             </div>
             <div class = "days"></div> 
         </form>

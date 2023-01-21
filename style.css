@@ -21,7 +21,39 @@
     background-color: #09090A;
   }
 
-  button {
+  header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #habitsLogo {
+    padding-right: 20px;
+  }
+
+  #today {
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #8b5cf6;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    transition-duration: 0.6s;
+    cursor: pointer;
+  }
+
+  #today:hover {
+    background-color: #a78bfa;
+    color: black
+  }
+
+  #especificDay {
     padding: 16px 24px;
     border-radius: 8px;
     border: 1px solid #8b5cf6;
@@ -36,9 +68,11 @@
     line-height: 125%;
     transition-duration: 0.6s;
     cursor: pointer;
+    height:52px;
+    width: 68px;
   }
 
-  button:hover {
+  #especificDay:hover {
     background-color: #a78bfa;
     color: black
   }
@@ -101,7 +135,7 @@
     background-color: #8B5CF6;
     border: 2px solid #a78bfa;
   }
-  @media (max-width: 570px) {
+  @media (max-width: 600px) {
     button div {
       display: none
     }
